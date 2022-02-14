@@ -1,0 +1,372 @@
+Restore Archived Project report for release-Zet98MiSTer
+Mon Feb 14 10:04:11 2022
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Mon Feb 14 10:04:11 2022 ;
+; Revision Name                   ; release-Zet98MiSTer                   ;
+; Top-level Entity Name           ; sys_top                               ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/karl.lurman/Documents/release-Zet98MiSTer_210217.qar' into the 'C:/Users/karl.lurman/Documents/release-Zet98MiSTer_210217_restored/' directory
+Info: Generated report 'release-Zet98MiSTer.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/17.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 25 warnings
+    Info: Peak virtual memory: 4860 megabytes
+    Info: Processing ended: Mon Feb 14 10:04:12 2022
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:04
+
+
++------------------------------------------------+
+; Files Restored                                 ;
++------------------------------------------------+
+; File Name                                      ;
++------------------------------------------------+
+; qar_info.json                                  ;
+; FDC/FDC.vhd                                    ;
+; FDC/FDC_sectinfo.vhd                           ;
+; FDC/FDC_timing.vhd                             ;
+; FDC/dskchk2d.vhd                               ;
+; FDC/fmdem.vhd                                  ;
+; FDC/fmmod.vhd                                  ;
+; FDC/headseek.vhd                               ;
+; FDC/mfmdem.vhd                                 ;
+; FDC/mfmmod.vhd                                 ;
+; FDC/nrdet.vhd                                  ;
+; FDC/seekcont.vhd                               ;
+; LIB/CRCGENN.vhd                                ;
+; LIB/HEX2SEG.vhd                                ;
+; LIB/HEX2SEGn.vhd                               ;
+; LIB/MATH/sqrt.vhd                              ;
+; LIB/PARGEN.vhd                                 ;
+; LIB/PARITYG.vhd                                ;
+; LIB/addsat.vhd                                 ;
+; LIB/average.vhd                                ;
+; LIB/delayer.vhd                                ;
+; LIB/delayon.vhd                                ;
+; LIB/digifilter.vhd                             ;
+; LIB/div.vhd                                    ;
+; LIB/e8255.vhd                                  ;
+; LIB/fixtimer.vhd                               ;
+; LIB/g_srff.vhd                                 ;
+; LIB/intchk.vhd                                 ;
+; LIB/multi.vhd                                  ;
+; LIB/sftclk.vhd                                 ;
+; LIB/sftdiv.vhd                                 ;
+; LIB/sftgen.vhd                                 ;
+; LIB/signext.vhd                                ;
+; LIB/ssmult.vhd                                 ;
+; LIB/susmult.vhd                                ;
+; MiSTer/sys/alsa.sv                             ;
+; MiSTer/sys/arcade_video.v                      ;
+; MiSTer/sys/ascal.vhd                           ;
+; MiSTer/sys/audio_out.v                         ;
+; MiSTer/sys/build_id.tcl                        ;
+; MiSTer/sys/ddr_svc.sv                          ;
+; MiSTer/sys/gamma_corr.sv                       ;
+; MiSTer/sys/hdmi_config.sv                      ;
+; MiSTer/sys/hps_io.v                            ;
+; MiSTer/sys/hq2x.sv                             ;
+; MiSTer/sys/i2c.v                               ;
+; MiSTer/sys/i2s.v                               ;
+; MiSTer/sys/iir_filter.v                        ;
+; MiSTer/sys/ltc2308.sv                          ;
+; MiSTer/sys/mcp23009.sv                         ;
+; MiSTer/sys/mt32pi.sv                           ;
+; MiSTer/sys/osd.v                               ;
+; MiSTer/sys/pll_audio.qip                       ;
+; MiSTer/sys/pll_audio.v                         ;
+; MiSTer/sys/pll_audio/pll_audio_0002.qip        ;
+; MiSTer/sys/pll_audio/pll_audio_0002.v          ;
+; MiSTer/sys/pll_cfg.qip                         ;
+; MiSTer/sys/pll_cfg.v                           ;
+; MiSTer/sys/pll_cfg/altera_pll_reconfig_core.v  ;
+; MiSTer/sys/pll_cfg/altera_pll_reconfig_top.v   ;
+; MiSTer/sys/pll_hdmi.qip                        ;
+; MiSTer/sys/pll_hdmi.v                          ;
+; MiSTer/sys/pll_hdmi/pll_hdmi_0002.qip          ;
+; MiSTer/sys/pll_hdmi/pll_hdmi_0002.v            ;
+; MiSTer/sys/pll_hdmi_adj.vhd                    ;
+; MiSTer/sys/pll_q17.qip                         ;
+; MiSTer/sys/scandoubler.v                       ;
+; MiSTer/sys/scanlines.v                         ;
+; MiSTer/sys/sd_card.sv                          ;
+; MiSTer/sys/sigma_delta_dac.v                   ;
+; MiSTer/sys/spdif.v                             ;
+; MiSTer/sys/sys.qip                             ;
+; MiSTer/sys/sys.tcl                             ;
+; MiSTer/sys/sys_analog.tcl                      ;
+; MiSTer/sys/sys_dual_sdram.tcl                  ;
+; MiSTer/sys/sys_top.sdc                         ;
+; MiSTer/sys/sys_top.v                           ;
+; MiSTer/sys/sysmem.sv                           ;
+; MiSTer/sys/vga_out.sv                          ;
+; MiSTer/sys/video_cleaner.sv                    ;
+; MiSTer/sys/video_mixer.sv                      ;
+; PS2IF/KBIF.vhd                                 ;
+; PS2IF/PS2IF.vhd                                ;
+; USART/e8251.vhd                                ;
+; USART/rxframe.vhd                              ;
+; USART/txframe.vhd                              ;
+; VIDEO/CRTC98.vhd                               ;
+; VIDEO/GRAPHSCR98.vhd                           ;
+; VIDEO/VTIMING.vhd                              ;
+; VIDEO/font/fontrom.vhd                         ;
+; VIDEO/graphbuf816.cmp                          ;
+; VIDEO/graphbuf816.qip                          ;
+; VIDEO/graphbuf816.vhd                          ;
+; VIDEO/knjscr.vhd                               ;
+; VIDEO/synccont2.vhd                            ;
+; VIDEO/textscr.vhd                              ;
+; VIDEO/video_timing_pkg.vhd                     ;
+; Zet98/BIOS/mkrom.sh                            ;
+; Zet98/CV/dpram4kw.cmp                          ;
+; Zet98/CV/dpram4kw.qip                          ;
+; Zet98/CV/dpram4kw.vhd                          ;
+; Zet98/DMA/DMA1ch.vhd                           ;
+; Zet98/DMA/DMA8237.vhd                          ;
+; Zet98/DMA/DMASW.vhd                            ;
+; Zet98/DMA/DMAUADDR.vhd                         ;
+; Zet98/FDDIBM.vhd                               ;
+; Zet98/FDtiming.vhd                             ;
+; Zet98/GAIJIRAMDP.vhd                           ;
+; Zet98/GDC/calccircle.vhd                       ;
+; Zet98/GDC/gdc.vhd                              ;
+; Zet98/GDC/gdc.vwf                              ;
+; Zet98/GDC/gdcfifo.cmp                          ;
+; Zet98/GDC/gdcfifo.qip                          ;
+; Zet98/GDC/gdcfifo.vhd                          ;
+; Zet98/GDC/gragdc.vhd                           ;
+; Zet98/GDC/txtgdc.vhd                           ;
+; Zet98/GDC_MMAP.vhd                             ;
+; Zet98/IO043F.vhd                               ;
+; Zet98/IO_RD.vhd                                ;
+; Zet98/IO_RDP.vhd                               ;
+; Zet98/IO_RW.vhd                                ;
+; Zet98/IO_WR.vhd                                ;
+; Zet98/IO_WRP.vhd                               ;
+; Zet98/IOack.vhd                                ;
+; Zet98/KANJI11RAMDP.vhd                         ;
+; Zet98/KANJI1RAMDP.cmp                          ;
+; Zet98/KANJI1RAMDP.qip                          ;
+; Zet98/KANJI1RAMDP.vhd                          ;
+; Zet98/KBIF/KBCONV.vhd                          ;
+; Zet98/KBIF/keypress.cmp                        ;
+; Zet98/KBIF/keypress.qip                        ;
+; Zet98/KBIF/keypress.vhd                        ;
+; Zet98/KBIF/ktble0.cmp                          ;
+; Zet98/KBIF/ktble0.hex                          ;
+; Zet98/KBIF/ktble0.qip                          ;
+; Zet98/KBIF/ktble0.vhd                          ;
+; Zet98/KBIF/ktbln.cmp                           ;
+; Zet98/KBIF/ktbln.hex                           ;
+; Zet98/KBIF/ktbln.qip                           ;
+; Zet98/KBIF/ktbln.vhd                           ;
+; Zet98/KNJRAMCONT.vhd                           ;
+; Zet98/MOUSE/MOUSECONV.vhd                      ;
+; Zet98/MOUSE/mouseint.vhd                       ;
+; Zet98/MiSTer/Zet98.sv                          ;
+; Zet98/MiSTer/pll.cmp                           ;
+; Zet98/MiSTer/pll.qip                           ;
+; Zet98/MiSTer/pll.sip                           ;
+; Zet98/MiSTer/pll.spd                           ;
+; Zet98/MiSTer/pll.v                             ;
+; Zet98/MiSTer/pll/pll_0002.qip                  ;
+; Zet98/MiSTer/pll/pll_0002.v                    ;
+; Zet98/MiSTer/pll_sim/pll.vo                    ;
+; Zet98/PTC/PTC1ch.vhd                           ;
+; Zet98/PTC/PTC8253.vhd                          ;
+; Zet98/Zet98MiSTer.vhd                          ;
+; Zet98/doc/keymap.xlsx                          ;
+; Zet98/grcg.vhd                                 ;
+; Zet98/grpal.vhd                                ;
+; Zet98/itfsw.vhd                                ;
+; Zet98/knjaddrcnv.vhd                           ;
+; Zet98/mem_addr_pkg_MiSTer.vhd                  ;
+; Zet98/memorymap.vhd                            ;
+; Zet98/nvram98.vhd                              ;
+; Zet98/ppi8255.vhd                              ;
+; Zet98/ram2kw.vhd                               ;
+; Zet98/ram2kw_alt.cmp                           ;
+; Zet98/ram2kw_alt.qip                           ;
+; Zet98/ram2kw_alt.vhd                           ;
+; Zet98/sdramc.vhd                               ;
+; Zet98/sndid.vhd                                ;
+; Zet98/tstamp.vhd                               ;
+; Zet98/tvram.vhd                                ;
+; Zet98/v17/DPSRAM11x8.cmp                       ;
+; Zet98/v17/DPSRAM11x8.vhd                       ;
+; Zet98/v17/Zet98.qpf                            ;
+; Zet98/v17/Zet98.qsf                            ;
+; Zet98/v17/Zet98MiSTer.qsf                      ;
+; Zet98/v17/Zet98MiSTer.sdc                      ;
+; Zet98/v17/build_id.v                           ;
+; Zet98/v17/gcrtc.stp                            ;
+; Zet98/v17/output_files/release-Zet98MiSTer.rbf ;
+; Zet98/v17/release-Zet98CV.qsf                  ;
+; Zet98/v17/release-Zet98MiSTer.qsf              ;
+; Zet98/z8259.vhd                                ;
+; diskemu_mister/FDemu.vhd                       ;
+; diskemu_mister/FECcont.vhd                     ;
+; diskemu_mister/diskemu_mister.vhd              ;
+; diskemu_mister/fecbuf.cmp                      ;
+; diskemu_mister/fecbuf.vhd                      ;
+; diskemu_mister/mkgapsync.vhd                   ;
+; diskemu_mister/sasidev.vhd                     ;
+; diskemu_mister/sectram.cmp                     ;
+; diskemu_mister/sectram.vhd                     ;
+; diskemu_mister/sramcont.vhd                    ;
+; diskemu_mister/sramram.cmp                     ;
+; diskemu_mister/sramram.vhd                     ;
+; diskemu_mister/tracktable.vhd                  ;
+; diskemu_mister/wrotecont.vhd                   ;
+; rtc/I2Crtc.vhd                                 ;
+; rtc/rtc4990MiSTer.vhd                          ;
+; rtc/rtcbody.vhd                                ;
+; sound/FMcommon/FMreg.vhd                       ;
+; sound/FMcommon/MUL16x17.qip                    ;
+; sound/FMcommon/MUL16x17.vhd                    ;
+; sound/FMcommon/TL.mif                          ;
+; sound/FMcommon/TLtbl.qip                       ;
+; sound/FMcommon/TLtbl.vhd                       ;
+; sound/FMcommon/envcont.vhd                     ;
+; sound/FMcommon/envelope_pkg.vhd                ;
+; sound/FMcommon/fmparram.vhd                    ;
+; sound/FMcommon/muls16xu16.vhd                  ;
+; sound/OPN/OPN.vhd                              ;
+; sound/OPN/OPNA.vhd                             ;
+; sound/OPN/OPNFM.vhd                            ;
+; sound/OPN/OPNREG.vhd                           ;
+; sound/OPN/RHYTHM/01BD.mif                      ;
+; sound/OPN/RHYTHM/02SD.mif                      ;
+; sound/OPN/RHYTHM/04TOP.mif                     ;
+; sound/OPN/RHYTHM/08HH.mif                      ;
+; sound/OPN/RHYTHM/10TOM.mif                     ;
+; sound/OPN/RHYTHM/20RIM.mif                     ;
+; sound/OPN/RHYTHM/OPNARHYTHM.vhd                ;
+; sound/OPN/RHYTHM/ROM_01BD.cmp                  ;
+; sound/OPN/RHYTHM/ROM_01BD.qip                  ;
+; sound/OPN/RHYTHM/ROM_01BD.vhd                  ;
+; sound/OPN/RHYTHM/ROM_02SD.cmp                  ;
+; sound/OPN/RHYTHM/ROM_02SD.qip                  ;
+; sound/OPN/RHYTHM/ROM_02SD.vhd                  ;
+; sound/OPN/RHYTHM/ROM_04TOP.cmp                 ;
+; sound/OPN/RHYTHM/ROM_04TOP.qip                 ;
+; sound/OPN/RHYTHM/ROM_04TOP.vhd                 ;
+; sound/OPN/RHYTHM/ROM_08HH.cmp                  ;
+; sound/OPN/RHYTHM/ROM_08HH.qip                  ;
+; sound/OPN/RHYTHM/ROM_08HH.vhd                  ;
+; sound/OPN/RHYTHM/ROM_10TOM.cmp                 ;
+; sound/OPN/RHYTHM/ROM_10TOM.qip                 ;
+; sound/OPN/RHYTHM/ROM_10TOM.vhd                 ;
+; sound/OPN/RHYTHM/ROM_20RIM.cmp                 ;
+; sound/OPN/RHYTHM/ROM_20RIM.qip                 ;
+; sound/OPN/RHYTHM/ROM_20RIM.vhd                 ;
+; sound/OPNAADPCM/CALCOPNAADPCM_sft.vhd          ;
+; sound/OPNAADPCM/OPNAADPCM.vhd                  ;
+; sound/OPNAADPCM/PCMTIMING.vhd                  ;
+; sound/b7lev.cmp                                ;
+; sound/b7lev.mif                                ;
+; sound/b7lev.qip                                ;
+; sound/b7lev.vhd                                ;
+; sound/cosn.mif                                 ;
+; sound/cosnrom.qip                              ;
+; sound/cosnrom.vhd                              ;
+; sound/mult16.qip                               ;
+; sound/mult16.vhd                               ;
+; sound/noisegen.vhd                             ;
+; sound/sinn.mif                                 ;
+; sound/sinnrom.qip                              ;
+; sound/sinnrom.vhd                              ;
+; sound/sintbl.vhd                               ;
+; sound/sinw.mif                                 ;
+; sound/sinwrom.qip                              ;
+; sound/sinwrom.vhd                              ;
+; zet-1.3.1/cores/zet/rtl/altera/microcode.txt   ;
+; zet-1.3.1/cores/zet/rtl/altera/zet_signmul17.v ;
+; zet-1.3.1/cores/zet/rtl/defines.v              ;
+; zet-1.3.1/cores/zet/rtl/micro_rom.dat          ;
+; zet-1.3.1/cores/zet/rtl/rom_def.v              ;
+; zet-1.3.1/cores/zet/rtl/zet.v                  ;
+; zet-1.3.1/cores/zet/rtl/zet_addsub.v           ;
+; zet-1.3.1/cores/zet/rtl/zet_alu.v              ;
+; zet-1.3.1/cores/zet/rtl/zet_arlog.v            ;
+; zet-1.3.1/cores/zet/rtl/zet_bitlog.v           ;
+; zet-1.3.1/cores/zet/rtl/zet_conv.v             ;
+; zet-1.3.1/cores/zet/rtl/zet_core.v             ;
+; zet-1.3.1/cores/zet/rtl/zet_decode.v           ;
+; zet-1.3.1/cores/zet/rtl/zet_div_su.v           ;
+; zet-1.3.1/cores/zet/rtl/zet_div_uu.v           ;
+; zet-1.3.1/cores/zet/rtl/zet_exec.v             ;
+; zet-1.3.1/cores/zet/rtl/zet_fetch.v            ;
+; zet-1.3.1/cores/zet/rtl/zet_fulladd16.v        ;
+; zet-1.3.1/cores/zet/rtl/zet_jmp_cond.v         ;
+; zet-1.3.1/cores/zet/rtl/zet_memory_regs.v      ;
+; zet-1.3.1/cores/zet/rtl/zet_micro_data.v       ;
+; zet-1.3.1/cores/zet/rtl/zet_micro_rom.v        ;
+; zet-1.3.1/cores/zet/rtl/zet_muldiv.v           ;
+; zet-1.3.1/cores/zet/rtl/zet_mux8_1.v           ;
+; zet-1.3.1/cores/zet/rtl/zet_mux8_16.v          ;
+; zet-1.3.1/cores/zet/rtl/zet_next_or_not.v      ;
+; zet-1.3.1/cores/zet/rtl/zet_nstate.v           ;
+; zet-1.3.1/cores/zet/rtl/zet_opcode_deco.v      ;
+; zet-1.3.1/cores/zet/rtl/zet_othop.v            ;
+; zet-1.3.1/cores/zet/rtl/zet_regfile.v          ;
+; zet-1.3.1/cores/zet/rtl/zet_rxr16.v            ;
+; zet-1.3.1/cores/zet/rtl/zet_rxr8.v             ;
+; zet-1.3.1/cores/zet/rtl/zet_shrot.v            ;
+; zet-1.3.1/cores/zet/rtl/zet_wb_master.v        ;
+; diskemu_mister/sramdefault.hex                 ;
+; Zet98/v17/assignment_defaults.qdf              ;
++------------------------------------------------+
+
+
++---------------------------------------+
+; Files Not Restored                    ;
++---------------------------------------+
+; File Name                             ;
++---------------------------------------+
+; zet-1.3.1/cores/zet/rtl/micro_rom.dat ;
++---------------------------------------+
+
+
